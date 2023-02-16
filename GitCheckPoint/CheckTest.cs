@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GitCheckPoint
 {
-    internal class CheckTest
+    public static class CheckTest
     {
-        public void testMessage(string str)
+        public static void testMessage(string str)
         {
             Console.WriteLine(str);
         }
